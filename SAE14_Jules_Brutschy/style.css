@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{ 
+    margin: 0;
+    font-family: 'Oswald', 'sans-serif';
+}
+header{
+    background-color: white;
+    border-bottom: #a8dadc 2px solid;
+}
+header::after { 
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-top: 23px;
+    position: relative;
+}
+nav a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+nav a:hover{
+    border-bottom: #a8dadc 2px solid;
+    color: #a8dadc;
+}
+
+.textwrap{
+    padding: 200px 60px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 90px;
+}
+.subtitleMain{
+    margin-top: 30px;
+     text-align:center;
+     font-size: 50px;
+     color: white
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 20px;
+}
+.cd{
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+
+
+.onimg{
+    color: #252525;
+    text-align: center;
+}
+
+.pp{
+    width: 175px;
+}
+
+
+.up{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    
+}
+.up:hover{ 
+    transform: rotate(360) 0.5s;
+    color: pink;
+}
+.icon{
+    font-size: 22px;
+    color: black;
+}
+.icon:hover{ 
+    color: pink;
+}
+
+footer{ 
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a8dadc;
+}
+
+h2{
+    font-size: 34px;
+    margin: 1%;
+   
+}
+h3{
+    font-size: 24px;
+}
+.ppdiv{
+    padding: 20px 0;
+    margin-bottom: -20px;
+    text-align: center;
+
+}
+
+.alldiv{
+    padding: 60px 0;
+    text-align: center;
+
+}
+
+.intro-parti{
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 0;
+   
+}
+.parcours{
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a8dadc;
+    padding: 60px 0;
+}
+
+.bsk2{
+
+    width: 40%;
+    padding: 1%;
+    
+}
+.txt{
+    padding: 3%;
+    font-size: 1.25em;
+}
+.text{
+    font-size: 1.25em;
+}
+
+.miss{
+    color: rgb(43, 42, 42);
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.miss1{
+    color: rgb(77, 76, 76);
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.pamiss{
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+}
+.lien{
+    color: black;
+}
+.lien1{
+    color: #D6D6D6;
+}
+.lien:hover{
+    color: #F1FaEE;
+}
+.lien1:hover{
+    color: #457b9d;
+}
+
+/* https://cssbuttons.io/detail/cssbuttons-io/calm-tiger-42 */
+
+.button {
+ display: inline-block;
+ padding: 10px 150px;
+ border: 1px solid #a8dadc ;
+ border-radius: 25px ;
+ transition: all 0.2s ease-in;
+ position: relative;
+ overflow: hidden;
+ font-size: 120px;
+ font-family: 'Oswald', 'sans-serif';
+ color: white;
+ z-index: 1;
+ background-color: #1d3557;
+ margin-bottom: 100px;
+
+}
+
+.button:before {
+ content: "";
+ position: absolute;
+ left: 50%;
+ transform: translateX(-50%) scaleY(1) scaleX(1.25);
+ top: 100%;
+ width: 140%;
+ height: 180%;
+ background-color:#17263b;
+ border-radius: 50%;
+ display: block;
+ transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+ z-index: -1;
+}
+
+.button:after {
+ content: "";
+ position: absolute;
+ left: 55%;
+ transform: translateX(-50%) scaleY(1) scaleX(1.45);
+ top: 180%;
+ width: 160%;
+ height: 190%;
+ background-color: #17263b;
+ border-radius: 50%;
+ display: block;
+ transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+ z-index: -1;
+}
+
+.button:hover {
+ color: #ffffff;
+ border: 1px solid #17263b;
+}
+
+.button:hover:before {
+ top: -35%;
+ background-color: #17263b;
+ transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button:hover:after {
+ top: -45%;
+ background-color: #17263b;
+ transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.div_button{
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+     justify-content: space-evenly;
+}
+
+.mainBody{
+    background-color: #457b9d;
+}
+
+.linkMain{
+    color: white;
+    text-decoration: none;
+}
+
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divgrid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.textvideo{
+    margin-left: 20%;
+    font-size: 1.25em;
+}
